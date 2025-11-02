@@ -59,6 +59,10 @@ For detailed explanation on how things work, checkout the [guide](https://github
 - [version-badge](https://img.shields.io/badge/version-1.0.1-blue.svg)
 - [license-badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
+## About me 
+
+Im Hatakava Demir.
+
 ## License
 
 [MIT](https://github.com/creativetimofficial/vue-paper-dashboard/blob/master/LICENSE.md)
