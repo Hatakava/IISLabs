@@ -2,15 +2,16 @@ name: My GitHub Actions Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-    - name: Build code
-      run: <BUILD>
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build code
+        # ЗАМИНІТЬ на реальну команду збірки вашого проєкту
+        run: echo "Build — replace with your build command"
