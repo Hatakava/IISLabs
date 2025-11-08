@@ -13,5 +13,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Build code
-        # ЗАМИНІТЬ на реальну команду збірки вашого проєкту
         run: echo "Build — replace with your build command"
